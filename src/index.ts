@@ -1,4 +1,4 @@
-import { initData } from '@/ts/highlight';
+import { initData } from './ts/highlight';
 import highlight from './components/highlight.vue';
 import { setInit } from './init-data';
 

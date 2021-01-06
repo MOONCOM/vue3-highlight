@@ -45,12 +45,14 @@ npm install vue3-highlight
 ### 使用
 下载成功后在main.js中插入如下代码
 ```
+import { createApp } from 'vue';
 // 引入插件
 import highlight from 'vue3-highlight';
 // 组件注册
-Vue.use(highlight);
+const app = createApp(App);
+app.use(highlight);
 // 配置组件的默认类名和样式
-// Vue.use(highlight,{class:'MOONCOM zhangsan',style:{color:'#ff0'}});
+// app.use(highlight,{class:'MOONCOM zhangsan',style:{color:'#ff0'}});
 ```
 在需要查询字词高亮展示的页面组件中使用
 ```

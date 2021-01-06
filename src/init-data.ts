@@ -1,4 +1,4 @@
-import { initData } from '@/ts/highlight';
+import { initData } from './ts/highlight';
 // 保存的初始值
 // eslint-disable-next-line import/no-mutable-exports
 export let init: initData = {

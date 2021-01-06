@@ -12,7 +12,7 @@
 
 <script lang="ts">
 import { defineComponent, PropType } from 'vue';
-import { group } from '@/ts/highlight';
+import { group } from '../ts/highlight';
 import { init } from '../init-data';
 
 export default defineComponent({

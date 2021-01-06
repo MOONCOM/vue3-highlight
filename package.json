@@ -1,6 +1,6 @@
 {
   "name": "vue3-highlight",
-  "version": "0.2.3",
+  "version": "0.2.6",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve src/demo/main.js",
@@ -11,7 +11,7 @@
     "core-js": "^3.6.5",
     "vue": "^3.0.0"
   },
-  "main": "dist/v-highlight-component.common.js",
+  "main": "src/index.ts",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.33.0",
     "@typescript-eslint/parser": "^2.33.0",
@@ -28,7 +28,7 @@
     "typescript": "~3.9.3"
   },
   "files": [
-    "dist"
+    "src"
   ],
   "license": "MIT",
   "keywords": [

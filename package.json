@@ -1,11 +1,11 @@
 {
   "name": "vue3-highlight",
-  "version": "0.1.0",
+  "version": "0.2.3",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "serve": "vue-cli-service serve src/demo/main.js",
+    "build": "vue-cli-service build src/demo/main.js",
+    "build-component": "vue-cli-service build --target lib --name v-highlight-component src/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",

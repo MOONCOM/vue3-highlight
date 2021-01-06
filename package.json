@@ -1,16 +1,17 @@
 {
   "name": "vue3-highlight",
   "version": "0.2.3",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve src/demo/main.js",
     "build": "vue-cli-service build src/demo/main.js",
-    "build-component": "vue-cli-service build --target lib --name v-highlight-component src/index.js"
+    "build-component": "vue-cli-service build --target lib --name vue3-highlight src/index.ts"
   },
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^3.0.0"
   },
+  "main": "dist/v-highlight-component.common.js",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.33.0",
     "@typescript-eslint/parser": "^2.33.0",
@@ -25,5 +26,17 @@
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-vue": "^7.0.0-0",
     "typescript": "~3.9.3"
-  }
+  },
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "vue3",
+    "highlight",
+    "component",
+    "vue-highlight",
+    "高亮",
+    "选中"
+  ]
 }
